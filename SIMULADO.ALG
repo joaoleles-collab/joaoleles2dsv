@@ -1,0 +1,39 @@
+Algoritmo "SIMULADO"
+
+Var
+NOME: VETOR[1..8] DE CARACTERE
+NOTA: VETOR[1..8] DE REAL
+i: inteiro
+MEDIA: REAL
+
+Inicio
+
+ 
+ PARA i<- 1 ATE 8 FACA
+ ESCREVAL ("*********")
+ ESCREVAL ("NOME DO ALUNO:")
+ LEIA (NOME[i])
+ ESCREVAL ("*************")
+ ESCREVAL ("NOTA DO ALUNO")
+ LEIA (NOTA[i])
+ 
+ LIMPATELA
+ 
+   FIMPARA
+
+  MEDIA<- (NOTA[1]+NOTA[2]+NOTA[3]+NOTA[4]+NOTA[5]+NOTA[6]+NOTA[7]+NOTA[8])/8
+  ESCREVAL ("A MÉDIA DA TURMA É:", MEDIA)
+
+ PARA i<- 1 ate 8 faca
+ 
+  ENQUANTO (NOTA[i]>= MEDIA)  FACA
+  LEIA(NOTA[i])
+  ESCREVAL ("A NOTA DE ",  NOME[i] , "ESTÁ APROPRIADA À MÉDIA")
+
+
+  FIMENQUANTO
+
+  FIMPARA
+
+
+Fimalgoritmo
