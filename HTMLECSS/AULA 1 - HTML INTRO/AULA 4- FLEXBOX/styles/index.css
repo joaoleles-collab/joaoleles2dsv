@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* display block(padrao do navegador) */
+.pai{
+width: 80%;
+height: 500px;
+padding: 20px;
+background-color: rgb(221, 184, 128);
+display: flex;
+/* row=linha */
+/* columm=coluna */
+flex-direction: row-reverse ;
+justify-content: space-around;
+align-items: end;
+/* start-esquerda */
+/* end-direita */
+/* center-centro */
+/* space-between/around- separar centralizado */
+}
+
+.filho{
+padding:30px;
+background-color: rgb(216, 143, 8);
+margin: 10px 0px ;
+
+}
