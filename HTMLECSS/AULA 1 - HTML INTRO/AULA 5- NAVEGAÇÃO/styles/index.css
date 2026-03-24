@@ -1,0 +1,86 @@
+*{
+margin: 0%;
+padding: 0%;
+font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: rgb(221, 19, 19);
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px green;
+}
+
+header aside{
+width: 45%;
+padding: 5px 0px;
+display: flex;
+gap: 15px;
+align-items: center;
+
+}
+
+#headeresquerdo{
+
+
+}
+
+#headerdireito{
+    justify-content: end;
+}
+
+main{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 10px 0px;
+
+
+}
+
+#title{
+    margin: 10px; 
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+
+
+#banner{
+border-radius: 10px;
+width: 47%;
+height: 500px;
+background-image: url('../images/banner\ NEYMAR\ FA.jpg');
+background-repeat:no-repeat ;
+background-size: cover;
+background-position: top;
+
+}
+
+#noticia1{
+    width: 70%;
+    margin: 10px 0px;
+}
+
+#title3{
+    margin: 10px; 
+    font-weight: bold;
+    font-size: 18pt;
+}
+#banner3{ 
+border-radius: 10px;
+width: 47%;
+height: 500px;
+background-image: url('../images/OIP.webp');
+background-repeat:no-repeat ;
+background-size: cover;
+background-position: top;
+}
+#noticia3{
+    width: 70%;
+    margin: 10px 0px;
+}
+
+
