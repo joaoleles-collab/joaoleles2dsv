@@ -50,7 +50,7 @@ padding: 10px 0px;
 
 #banner{
 border-radius: 10px;
-width: 47%;
+width: 70%;
 height: 500px;
 background-image: url('../images/banner\ NEYMAR\ FA.jpg');
 background-repeat:no-repeat ;
@@ -59,7 +59,7 @@ background-position: top;
 
 }
 
-#noticia1{
+#noticia1 {
     width: 70%;
     margin: 10px 0px;
 }
@@ -79,6 +79,24 @@ background-size: cover;
 background-position: top;
 }
 #noticia3{
+    width: 70%;
+    margin: 10px 0px;
+}
+
+#title2{
+    font-weight: bold;
+    font-size: 18pt;
+    margin: 10px;
+}
+
+#banner2{
+border-radius: 10px;
+width: 60%;
+height: 500px;
+background-image: url(../images/Metro-DF-ampliacao.webp);
+background-repeat: no-repeat;
+}
+#noticia2{
     width: 70%;
     margin: 10px 0px;
 }
