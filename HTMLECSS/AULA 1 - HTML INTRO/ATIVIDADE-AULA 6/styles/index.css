@@ -1,0 +1,22 @@
+@keyframes teste{
+    0%{
+        left: 110%;
+    }
+
+    100%{
+        left: -10%;
+    }
+}
+
+#homem_aranha{
+    position: absolute;
+ bottom: 30%;
+    justify-content: end;
+   left: 110%;
+   animation-name: teste;
+   animation-duration: 8s;
+   height: 5px;
+}
+
+
+

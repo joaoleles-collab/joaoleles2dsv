@@ -1,0 +1,18 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --primeiraCor: #b80c0c;
+    --corTexto: #1613af;
+    --segundaCor: #0c5215;
+ 
+}
+body{
+    background-image: url(../images/AT\ aula\ 6.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
