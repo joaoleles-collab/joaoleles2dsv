@@ -1,0 +1,39 @@
+@font-face {
+    font-family: california;
+    font-weight: normal;
+    src: url('../fonts/california_13/CALIFORNIA\ PERSONAL\ USE.ttf');
+}
+
+@font-face {
+    font-family: vougue;
+    font-weight: normal;
+    src: url('../fonts/vogue/Vogue.ttf');
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --fontePrimária: california;
+    --fonteSecundária: vougue;
+}
+
+p{
+    font-family: "Roboto";
+    font-size: 20pt;
+    width: 70%;
+}
+
+H1{
+    font-family: var(--fonteSecundária);
+    font-size: 30pt;
+    margin: 10px;
+    
+}
+
+H3{
+    font-family: var(--fontePrimária);
+    font-size: 20pt;
+}
