@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: url("https://static.vecteezy.com/ti/vetor-gratis/p1/10777875-padrao-de-doces-sem-costura-fundo-de-doces-e-doces-ilustracaoial-doodle-com-icones-de-doces-e-doces-vetor.jpg");
+}
+
+#título{
+    font-size: 50pt;
+}
+
+main{
+    width: 50%;
+    margin: 0px auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#produtos{
+    width: 80%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 10px rgb(151, 149, 149);
+    display: flex;
+    gap: 15px;
+    padding: 15px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.produto{
+    width: 200px;
+    background-color: rgb(219, 158, 216);
+    padding: 15px;
+    border: 3px solid rgb(223, 101, 121);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: start;
+    
+    
+    
+}
+
+.produto img{
+    width: 100%;
+}
+
+button{
+    height: 2vh;
+    margin: 2px;
+}
+
