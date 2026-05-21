@@ -1,0 +1,25 @@
+@font-face {
+    font-family: skateboy;
+    font-weight: normal;
+    src: url(../fonts/Skateboy.ttf);
+}
+
+
+.p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary{
+    display: flex;
+    flex-direction: row;
+}
+
+#imgesq{
+    width: 50%;
+    height: 50vh;
+    display: flex;
+}
+
+
+
+*{
+    font-family: skateboy;
+    font-size: 18pt;
+}
+
