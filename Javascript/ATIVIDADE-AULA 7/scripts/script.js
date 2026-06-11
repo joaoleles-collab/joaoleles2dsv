@@ -1,16 +1,26 @@
-var Nome = "João"
-let Idade = 16
-let online = true
-  
+const nomeJogador = "JoãoGamer"; // constante (não pode alterar)
+let idade = 16;    //number
+let online = true; //boolean
 
-
+// Objeto com o jogo favorito
 let jogoFavorito = {
-    nome: "PES 2021",
-    Lancamento: 2020  
-}
+    nome: "GTA V",
+    anoLancamento: 2013
+};
 
-let pontuacoes = [2-0, 2-1, 3-0]
+// Array com últimas 3 potuações
+let pontuacoes = [1500, 2000, 1800];
 
-console.log(Nome, Idade, online, jogoFavorito,);
-console.log("Ultimas pontuações nos jogos " + pontuacoes)
+// Mostrando os valores e seus tipos no console
+console.log("Nome:", nomeJogador, "Tipo:", typeof nomeJogador);
+console.log("Idade:", idade, "Tipo:", typeof idade);
+console.log("Online:", online, "Tipo:", typeof online);
+console.log("Jogo Favorito:", jogoFavorito, "Tipo:", typeof jogoFavorito);
+console.log("Pontuações:", pontuacoes, "Tipo:", typeof pontuacoes);
+
+// Mudando valores da idade e do status online
+idade = 17;
+online = false;
+console.log("Nova idade:", idade);
+console.log("Novo status online:", online);
 
